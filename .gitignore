@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.idea/.idea.BloombergTradeFeed/.idea/.gitignore
+/.idea/.idea.BloombergTradeFeed/.idea/cody_history.xml
+/.idea/.idea.BloombergTradeFeed.dir/.idea/cody_history.xml
+/.idea/.idea.BloombergTradeFeed/.idea/indexLayout.xml
+/.idea/.idea.BloombergTradeFeed/.idea/vcs.xml
