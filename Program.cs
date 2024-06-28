@@ -1,4 +1,5 @@
-﻿using TestXmlParser.TradeEngines;
+﻿using BloombergTradeFeed.TradeEngines;
+using TestXmlParser.TradeEngines;
 
 namespace TestXmlParser;
 
@@ -18,8 +19,8 @@ public class Program
 
         var tradeEngines = new List<TradeEngine>
         {
-            new GoldmanSachsTrades(),
-            new EnfusionTrades()
+            new GoldmanSachsTrades("/var/forza/ftpaccounts/goldman/outgoing/"),
+            //new EnfusionTrades()
             // Add new trade engines here
         };
 
@@ -28,7 +29,7 @@ public class Program
             engine.ProcessTrades(files);
         }
 
-        ArchiveFiles(files, archivePath);
+        //ArchiveFiles(files, archivePath);
     }
 
     private static void ArchiveFiles(IEnumerable<string> files, string archivePath)

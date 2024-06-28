@@ -1,17 +1,7 @@
-namespace TestXmlParser;
+namespace BloombergTradeFeed;
 
 public static class StringExtensions
 {
-    public static string ToGoldmanTransactionType(this string str)
-    {
-        return str switch
-        {
-            "C" => "BC",
-            "H" => "SS",
-            _ => str
-        };
-    }
-
     public static string ToProductKeyToBloombergShortKey(this string str)
     {
         return str switch
@@ -180,16 +170,6 @@ public static class StringExtensions
                 _ => "Unknown SubFlag"
             },
             _ => str
-        };
-    }
-
-    public static string ToGoldmanTradeIndicator(this string str)
-    {
-        return str switch
-        {
-            "Y" or "102" => "C",
-            "202" => "A",
-            _ => "N"
         };
     }
 }

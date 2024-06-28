@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TradeEgines\" />
+    <PackageReference Include="Rebex.Sftp" Version="7.0.8943" />
   </ItemGroup>
 
 </Project>
