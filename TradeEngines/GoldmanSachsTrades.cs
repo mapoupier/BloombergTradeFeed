@@ -1,7 +1,5 @@
 using System.Globalization;
 using Rebex.Net;
-using TestXmlParser;
-using TestXmlParser.TradeEngines;
 
 namespace BloombergTradeFeed.TradeEngines;
 

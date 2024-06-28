@@ -1,4 +1,4 @@
-namespace TestXmlParser;
+namespace BloombergTradeFeed;
 
 public interface ITradeProcessingStrategy
 {

@@ -1,7 +1,6 @@
 ﻿using BloombergTradeFeed.TradeEngines;
-using TestXmlParser.TradeEngines;
 
-namespace TestXmlParser;
+namespace BloombergTradeFeed;
 
 public class Program
 {

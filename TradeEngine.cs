@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace TestXmlParser;
+namespace BloombergTradeFeed;
 
 public abstract class TradeEngine
 {

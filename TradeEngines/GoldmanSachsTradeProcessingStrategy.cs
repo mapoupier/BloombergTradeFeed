@@ -1,4 +1,4 @@
-namespace TestXmlParser.TradeEngines;
+namespace BloombergTradeFeed.TradeEngines;
 
 public class GoldmanSachsTradeProcessingStrategy : ITradeProcessingStrategy
 {
