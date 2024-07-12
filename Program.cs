@@ -19,7 +19,7 @@ public class Program
         var tradeEngines = new List<TradeEngine>
         {
             new GoldmanSachsTrades("/var/forza/ftpaccounts/goldman/outgoing/"),
-            //new EnfusionTrades()
+            new EnfusionTrades("/var/forza/ftpaccounts/enfusion/outgoing/")
             // Add new trade engines here
         };
 

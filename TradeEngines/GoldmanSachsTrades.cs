@@ -18,7 +18,7 @@ public class GoldmanSachsTrades(string localOutputPath) : TradeEngine
             $"{trade.Common.SecurityProductKey.ToProductKeyToBloombergShortKey()}/{trade.Common.SecurityProductKey.ToProductKeyToBloombergProductSubFlag(trade.Common.ProductSubFlag)}";
 
         return recordTypes.Contains(trade.Common.RecordType) &&
-               trade.Common.CustodySafekeepingNumber == "065450793" &&
+               trade.Common.CustodySafekeepingNumber == "434544" &&
                !string.IsNullOrEmpty(trade.Common.CustomerAccountCounterparty) &&
                !excludedProduct.Contains(productType);
     }

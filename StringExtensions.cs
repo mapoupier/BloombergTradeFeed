@@ -21,6 +21,29 @@ public static class StringExtensions
         };
     }
 
+    public static string ToEnfusionTransactionType(this string str)
+    {
+        return str switch
+        {
+            "B" => "Buy",
+            "S" => "Sell",
+            "C" => "BuyToCover",
+            "H" => "SellShort",
+            _ => str,
+        };
+    }
+
+    public static string ToEnfusionSecurityIdentifier(this string str)
+    {
+        return str switch
+        {
+            "1" => "CUSIP",
+            "2" => "SEDOL",
+            "8" => "ISIN",
+            _ => str
+        };
+    }
+
     public static string ToProductKeyToBloombergProductSubFlag(this string str, string subFlag)
     {
         return str switch
